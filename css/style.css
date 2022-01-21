@@ -1,0 +1,61 @@
+/* font family link  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif; ;
+}
+ul>li{
+    font-weight: 500;
+}
+.panda-btn{
+    color:white;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border-radius: 8px;
+    padding:9px 25px;
+}
+.panda-background{
+    background-color: #fceae8;
+}
+.chatagories>div>div>div{
+    height:120px;
+}
+.chatagories img{
+    width: 150px;
+}
+
+/* .grow-self{
+    flex-grow: 0 !important;
+} */
+.search-input{
+    border:0;
+    border-radius: 25px;
+    background-color: #e7d9de;
+    outline: 0;
+    height: 36px;
+    max-width: 263px;
+    padding:5px 15px;
+    position: relative;
+    padding-right:35px;
+}
+.special > a, input div{
+    flex-grow: 1;
+}
+.input-with-icon{
+    position: relative;
+}
+.input-with-icon i{
+    position: absolute;
+    top:10px;
+    right: 11px;
+    font-size: 20px;
+    color:tomato;
+    cursor: pointer;
+}
+
+.input-with-icon.different i{
+    position: absolute;
+    top:10px;
+    left: 200px;
+    font-size: 20px;
+    color:tomato;
+    cursor:pointer;
+}
